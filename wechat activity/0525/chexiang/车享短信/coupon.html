@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>上汽车享平台联合推广</title>
+		<link type="text/css" rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+		<div class="layout-default">
+			<div class="coupon">
+				<div class="txt">优惠券已放入13xxxxxxxxx</div>
+				<img src="images/coupon.png" alt="优惠券"/>
+				<a href="#">去车享宝 找代驾</a>
+			</div>
+			<div class="code2d">
+				<img src="images/code2d.png" alt="车享网"/>
+				<span class="txt">使用说明</span>
+			</div>
+			<div class="shade">
+				<div class="popup">
+					<span>使用说明</span>
+					<ul>
+						<li>本券限2015年6月7日前使用（含6月7日）;</li>
+						<li>本券可在车享宝APP"找代驾"使用;</li>
+						<li>车享认证会员通过车享宝APP成功下单，获赠200积分;</li>
+						<li>本优惠不与其他优惠同享;</li>
+						<li>优惠券一次性使用，不设找零，不兑现;</li>
+						<li>如有任何问题请拨打车享客户热线400-8020-666;</li>
+						<li>在法律允许范围内车享对本次活动拥有最终解释权;</li>
+						<li>本次活动服务提供商【爱代驾】.</li>
+					</ul>
+					<div class="btn"><span>我知道了</span></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".code2d .txt").click(
+					function(){
+						$(".shade").css("display","block");
+					});
+				$(".btn span").click(function(){
+						$(".shade").css("display","none");
+				});
+			})
+		</script>
+	</body>
+</html>

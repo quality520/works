@@ -1,0 +1,195 @@
+html,body,input,button,span,div,em,h2{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background:#121116 url("../images/bg.jpg") no-repeat 100% 0;
+	background-size:100% auto;
+	font-size:62.5%;
+	font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', Tahoma, Arial, Helvetica;
+	padding:20px 20px 30px 20px;
+}
+
+.inputBox{
+
+}
+.inputBox .form{
+	margin-top:78%;
+	padding:20px 30px 10px 30px;
+	font-size:0;
+	background:rgba(255,255,255,0.12);
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	text-align:center;
+}
+.inputBox input,.inputBox button{
+	width:100%;
+	height:30px;
+
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	background-color:#fff;
+	display:inline-block;
+	margin-bottom:10px;
+	font-size:0.9rem;
+}
+.inputBox .telNumber{
+	border:1px solid #fff;
+	padding-left:15px;
+	box-sizing:border-box;
+}
+.inputBox .code{
+	border:1px solid #fff;
+	padding-left:15px;
+	width:50%;
+	box-sizing:border-box;
+	margin-right:2%;
+}
+.inputBox .cBtn{
+	width:48%;
+	border:1px solid #1ab11a;
+	background-color:#1ab11a;
+	color:#fff;
+}
+.inputBox .gBtn{
+	width:100%;
+	border:1px solid #1ab11a;
+	background-color:#1ab11a;
+	color:#fff;
+}
+.form span,.coupon span{
+	font-size:0.8rem;
+	color:#fff;
+}
+.form em,.coupon em{
+	display:inline-block;
+	margin:0 5px;
+	font-style:normal;
+	color:#29a838;
+}
+.inputBox .rule,.couponBox .rule{
+	color:#29a838;
+	text-align:center;
+	margin-top:30px;
+}
+.form .rule .tit{
+	font-size:1.0rem;
+}
+
+.couponBox{
+ 	display:none;
+}
+.coupon{
+	margin-top:78%;
+	padding:10px 15px 10px 15px;
+	font-size:0;
+	background:rgba(255,255,255,0.12);
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	text-align:center;
+}
+.coupon .txt{
+	font-size:0.9rem;
+	color:#fff;
+}
+.coupon .couponImg{
+	width:88%;
+	display:inline-block;
+	margin:10px auto 15px;
+}
+.coupon a,.share a{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	width:44%;
+	border-radius:15px;
+	-webkit-border-radius:15px;
+	border:1px solid #03b962;
+	box-sizing:border-box;
+	font-size:0.9rem;
+	text-decoration:none;
+	margin-bottom:10px;
+}
+.coupon a span,.share a span{
+	color:#585858;
+}
+.coupon .app,.share .app{
+	margin-right:6%;
+}
+.coupon a img,.share a img{
+	display:inline-block;
+	vertical-align:middle;
+	margin:0 5px;
+	margin-top:-4px;
+	width:20px;
+	height:20px;
+}
+.couponBox .rule .tit{
+	font-size:1.0rem;
+	text-decoration:underline;
+}
+.share:before{
+	content:"";
+	width:0;
+	height:100%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.share{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	display:block;
+	text-align:center;
+	background-color:rgba(0,0,0,0.5);
+}
+.share article{
+	display:inline-block;
+	width:88%;
+	height:auto;
+	vertical-align:middle;
+	background-color:#fff;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	overflow:hidden;
+	font-size:0;
+	padding-bottom:20px;
+}
+.share h2{
+	display:inline-block;
+	background-color:#3eb134;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	color:#fefefe;
+	font-size:1.0rem;
+}
+.share .content{
+	font-size:0.9rem;
+	color:#474747;
+	margin:20px 0 30px 0;
+}
+.box{
+	margin-top:78%;
+	padding:20px 50px;
+	text-align:center;
+}
+.box img{
+	width:100%;
+	display:block;
+	margin-bottom:10px;
+}
+.box span{
+	color:#1ab11a;
+	font-size:1.0rem;
+}
+.txt{
+	text-align:center;
+	display:block;
+	color:#1ab11a;
+	font-size:0.9rem;
+	margin:10px 0 30px 0;
+}

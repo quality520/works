@@ -1,0 +1,13 @@
+$(function(){
+		$(window).scroll(function(){
+			if($(window).scrollTop()>100){
+				$("#dingbu").fadeIn();	
+			}
+			else{
+				$("#dingbu").hide();
+			}
+		});
+		$("#dingbu").click(function(){
+			$('html,body').animate({'scrollTop':0},500);
+		});
+	});

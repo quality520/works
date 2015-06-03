@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>上汽车享平台联合推广</title>
+		<link type="text/css" rel="stylesheet" href="style/style.css">
+	</head>
+	<body>
+		<div class="layout-default">
+			<div class="coupon">
+				<div class="txt">优惠券已放入13xxxxxxxxx</div>
+				<img src="images/coupon.png" alt="优惠券"/>
+				<a href="#" class="app"><img src="images/app.png">下载APP</a>
+				<a href="#"  class="wechat"><img src="images/wechat.png">关注微信</a>
+				<span>赶快点击<em>右上角</em>分享给小伙伴吧！</span>
+			</div>
+			<div class="rule">
+				<div class="tit">活动规则</div>
+				<div class="txt">领券时间：2015年5月30日-6月30日</div>
+				<div class="txt">每个手机号码只能领取一次</div>
+				<div class="txt">优惠券将直接绑定至输入的手机号</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/zepto.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".code2d .txt").click(
+					function(){
+						$(".shade").css("display","block");
+					});
+				$(".btn span").click(function(){
+						$(".shade").css("display","none");
+				});
+				$(".share").click(function(){
+					$(".shar").css("display","block");
+				})
+			})
+		</script>
+	</body>
+</html>

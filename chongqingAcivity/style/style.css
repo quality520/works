@@ -1,0 +1,221 @@
+html,body,div,span,input,button,em,a,header{
+	margin:0;
+	padding:0;
+}
+body{
+	padding:30px 20px;
+	background:#174a2e url('../images/bg.jpg') no-repeat 50% 0;
+	background-size:100%  auto;
+	font-size:62.5%;
+	font-family:arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', Tahoma, Arial, Helvetica;
+}
+.inputBox{
+/*	display:none;*/
+}
+.form{
+	margin-top:65%;
+	padding:20px 20px 10px 20px;
+	background-color:rgba(255,255,255,0.15);
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	font-size:0;
+}
+.form input{
+	width:100%;
+	height:35px;
+	line-height:35px;
+	margin-bottom:10px;
+	display:inline-block;
+	appearance:none;
+	-webkit-appearance: none;
+}
+.form input[type='tel'],.form input[type='text']{
+	font-size:0.9rem;
+	padding-left:15px;
+	box-sizing:border-box;
+	border:1px solid #fff;
+	background-color:#fff;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+}
+.form .telNumber{
+
+}
+.form .codeNumber{
+	width:48%;
+	margin-right:4%;
+}
+.form input[type='button']{
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	border:1px solid #1ab11a;
+	font-size:0.9rem;
+	color:#fff;
+	background-color:#1ab11a;
+	text-align:center;
+}
+.form .cBtn{
+	width:48%;
+}
+.form span{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	font-size:0.8rem;
+	color:#fff;
+}
+.form em{
+	font-style:normal;
+	color:#fcdd11;
+}
+.gift{
+	width:100%;
+	height:60px;
+	margin:20px 0;
+}
+.gift img{
+	width:50px;
+	height:60px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.gift .txt{
+	display:inline-block;
+	width:80%;
+	vertical-align:middle;
+	padding:15px 0 0 10px;
+	box-sizing:border-box;
+	color:#fff;
+}
+.rule{
+	color:#fff;
+	line-height:22px;
+}
+.rule .tit{
+	font-size:1.0rem;
+	text-decoration:underline;
+}
+.end:before{
+	content:'';
+	width:0;
+	height:100%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.end{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.7);
+	text-align:center;
+}
+.end article{
+	width:80%;
+	height:auto;
+	display:inline-block;
+	vertical-align:middle;
+	background-color:#fff;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	overflow:hidden;
+}
+article header{
+	font-size:1.1rem;
+	width:100%;
+	height:50px;
+	line-height:50px;
+	background:#3eb134;
+	color:#fff;
+	font-size:1.4rem;
+}
+article .content{
+	margin:25px auto;
+	font-size:1.0rem;
+	color:#474747;
+}
+article .app{
+	width:100%;
+	margin-bottom:30px;	
+	text-align:center;
+}
+article .app a{
+	display:inline-block;
+	width:50%;
+	height:33px;
+	line-height:33px;
+	border:1px solid #03b962;
+	border-radius:35px;
+	color:#474747;
+	text-decoration:none;
+}
+article .app img{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	margin:0 20px 0 -20px;
+}
+.loading:before{
+	content:'';
+	width:0;
+	height:100%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.loading{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	text-align:center;
+}
+.loading .loadImg{
+	width:85%;
+	display:inline-block;
+	background:rgba(255,255,255,0.2);
+	vertical-align:middle;
+	margin-top:60px;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+}
+.loadImg img{
+	width:100%;
+}
+
+/*couponBox*/
+.couponBox {
+	display:none;
+}
+.couponBox .form{
+	padding:10px 20px;
+	text-align:center;
+}
+.couponBox .form img{
+	width:90%;
+}
+.couponBox .form a{
+	display:inline-block;
+	width:90%;
+	height:35px;
+	line-height:35px;
+	font-size:0.9rem;
+	text-decoration:none;
+	background-color:#1ab11a;
+	color:#fff;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	margin-top:10px;
+}
+.couponBox .share{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.8) url('../images/share.png') no-repeat right top;
+	background-size:50% auto;
+	display:none;
+}

@@ -1,0 +1,135 @@
+html,body,ul,li,a,img{
+	margin:0;padding:0;
+}
+body{
+	font-size:62.5%;
+	background-color:#ccc;
+	font-family:'Arial', 'Microsoft Yahei';
+}
+ul{
+	list-style:none;
+	width:50px;
+	height:210px;
+}
+.rSide{
+	position:fixed;
+	top:50%;
+	right:0;
+
+}
+.rSide li{
+	width:50px;
+	height:50px;
+	margin-top:2px;
+	background-color:#262728;
+	position:relative;
+	cursor:pointer;
+	transition:all 0.3s ;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	
+}
+.online{
+	position:absolute;
+	width:122px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	top:0;
+	right:-144%;
+	background-color:#262728;
+}
+.online em{
+	font-style:normal;
+	font-size:1.0rem;
+	color:#fff;
+}
+.call {
+	position:absolute;
+	width:210px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	top:0;
+	right:-320%;
+	background-color:#262728;
+}
+.call em {
+	color:#fff;
+	font-style:normal;
+	font-size:1.0rem;
+
+}
+.online,.call{
+	transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+.code{
+	position:absolute;
+	right:105%;
+	top:-207%;
+	width:127px;
+	height:154px;
+	background-color:#262728;
+	text-align:center;
+	padding:12px 10px 7px 14px;
+	box-sizing:border-box;
+	display:none;
+}
+.code em{
+	display:inline-block;
+	font-style:normal;
+	color:#fff;
+	font-size:1.0rem;
+	margin:5px 0;
+}
+.code p{
+	display:inline-block;
+	height:50px;
+	width:2px;
+	position:absolute;
+	right:-2px;
+	top:92px;
+	background-color:#262728;
+}
+.dingbu{
+	display:none;
+}
+.rSide li a{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	position:relative;
+	transition:all 0.1s ;
+	-webkit-transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-o-transition:all 0.3s;
+	z-index:9;
+}
+.rSide li:nth-child(1) a{
+	background:#262728 url("../images/kefu.png") no-repeat center center;
+}
+.rSide li:nth-child(2) a{
+	background:#262728 url("../images/rexian.png") no-repeat center center;
+}
+.rSide li:nth-child(3) a{
+	background:#262728 url("../images/xiazai.png") no-repeat center center;
+}
+.rSide li:nth-child(3):hover a{
+	background:#262728 url("../images/erweima.png") no-repeat center center;
+}
+
+.rSide li:nth-child(4){
+	margin-top:10px;
+}
+.rSide li:nth-child(4) a{
+	background:#262728 url("../images/dingbu.png") no-repeat center center;
+}
+.rSide li:hover  .online,.rSide li:hover .call{
+	right:100%;}
+.rSide li:hover .code{
+	display:block;
+}

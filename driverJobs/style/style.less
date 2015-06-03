@@ -1,0 +1,149 @@
+.height(@height:30px,@line-height:30px){
+	height:@height;
+	line-height:@line-height;
+}
+.border-radius(@radius:7px){
+	-webkit-border-radius:@radius;
+	border-radius:@radius;
+}
+html{font-size:62.5%;}
+input,button,div,p,span,img,ul,li{margin:0;padding:0;}
+body{
+	font-size:62.5%;
+	padding:20px 20px;
+}
+.login{
+	width:100%;
+	height:auto;
+
+	.box{
+		list-style:none;
+		width:100%;
+		height:40%;
+		.border-radius();
+		border:1px solid #c8c8c8;
+		padding:10px 15px;
+		box-sizing:border-box;
+		font-size:0;
+	}
+	.divider{
+		width:100%;
+		border-top:1px solid #c8c8c8;
+		margin:5px 0;
+	}
+	input{
+		.height(40px,40px);
+		display:inline-block;
+		.border-radius();
+		font-size:1.4rem;
+		outline:none;
+	}
+	.telNumber{
+		width:98%;
+		border:none;
+		
+	}
+	.cNumber{
+		width:50%;
+		border:none;
+		margin-right:3%;
+	}
+	.cBtn{
+		width:47%;
+		color:#fff;
+		margin:0 auto;
+		background-color:#01bc17;
+		border:1px solid #01bc17;
+	}
+	.gBtn{
+		width:100%;
+		background-color:#e5e5e5;
+		margin-top:100px;
+		border:1px solid #e5e5e5;
+		color:#aaaaaa;
+		.height(45px,45px);
+		font-size:1.6rem;
+	}
+}
+.share:before{
+	content:"";
+	width:0;
+	height:100%;
+	display:inline-block;
+	vertical-align:middle;
+}
+.share{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0.7);
+	text-align:center;
+	display:block;
+	article{
+		display:inline-block;
+		vertical-align:middle;
+		.border-radius();
+		background-color:#FFF;
+		width:80%;
+	}
+	span{
+		font-size:1.6rem;
+		font-weight:bolder;
+		display:inline-block;
+		margin:30px auto 0;
+		}
+	p{
+		width:100%;
+		margin:10px 0 30px 0;
+	}
+	em{
+		display:inline-block;
+		border-top:1px solid #a1a1a1;
+		padding:10px 0;
+		color:#00bb16;
+		width:100%;
+		font-size:1.4rem;
+		font-style:normal;
+		font-weight:bold;
+		.height();
+		cursor:pointer;
+	}
+}
+.container{
+	width:100%;
+	height:auto;
+}
+.photo{
+	width:100%;
+	height:50%;
+}
+.standard{
+		padding:20px 10px;
+		text-align:center;
+	div{
+		font-size:1.6rem;
+		font-weight:bolder;
+		margtin-bottom:20px;
+	}
+	span{
+		display:block;
+		text-align:left;
+		color:#aaaaaa;
+		.height();
+	}
+	input{
+		width:100%;
+		.height(50px,50px);
+		background-color:#00bb16;
+		color:#fff;
+		.border-radius();
+		border:1px solid #00bb16;
+		margin:30px 0 10px 0;
+		font-size:1.4rem;
+		font-weight:bold;
+	}
+}
+
+

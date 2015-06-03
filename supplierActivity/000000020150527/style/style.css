@@ -1,0 +1,309 @@
+html,
+body,
+h,
+form,
+span,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+}
+body {
+  font-size: 62.5%;
+  font-family: Arial, "Microsoft Yahei", "Helvetica Neue", Helvetica, sans-serif;
+  background: #121116 url("../images/bg.jpg") no-repeat 50% 0;
+  background-size: 100% auto;
+}
+.layout-default {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 20px 40px;
+}
+.form {
+  background: rgba(255, 255, 255, 0.12);
+  margin-top: 78%;
+  padding: 20px 30px;
+  border-radius: 7px;
+  -webkit-radius: 7px;
+  color: #474747;
+  font-size: 0;
+}
+.form input {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  -webkit-radius: 7px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 1.0rem;
+  color: #474747;
+}
+.form .telNumber {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.form .codeNumber {
+  width: 55%;
+  border: none;
+  background-color: #fff;
+}
+.form .cBtn {
+  margin-left: 5%;
+  width: 40%;
+  border: 1px solid #1ab11a;
+  background-color: #1ab11a;
+  color: #fff;
+  padding:0;
+  cursor: pointer;
+}
+.form .gBtn {
+  width: 100%;
+  border: 1px solid #1ab11a;
+  background-color: #1ab11a;
+  font-size: 1.1rem;
+  color: #fff;
+  padding:0;
+  cursor: pointer;
+}
+.form span {
+  display: inline-block;
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #ffffff;
+}
+.form em {
+  font-style: normal;
+  display: inline-block;
+  margin: 0 5px;
+  color: #29a838;
+}
+.rule {
+  margin-top: 20px;
+  color: #29a838;
+  text-align: center;
+  line-height: 1.4rem;
+  font-size: 1.0rem;
+}
+.rule .tit {
+  margin-bottom: 2px;
+  text-decoration: underline;
+}
+.rule .txt {
+  font-size: 0.9rem;
+}
+.coupon {
+  background: rgba(255,255,255,0.12);
+  margin-top: 78%;
+  padding:10px 10px;
+  border-radius: 7px;
+  -webkit-radius: 7px;
+  color: #474747;
+  font-size: 0;
+  display: block;
+  text-align:center;
+}
+.coupon .txt {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.coupon img {
+  width: 80%;
+}
+.coupon a {
+  display: inline-block;
+  width: 45%;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin: 20px 0;
+  border:1px solid #03b962;
+  border-radius: 20px;
+  -webkit-radius: 7px;
+  color: #fff;
+  padding:0 5px;
+  box-sizing:border-box;
+}
+.coupon a img{
+  width:20px;
+  height:20px;
+  vertical-align:middle;
+  margin-right:10px;
+  margin-top:-4px;
+}
+.coupon .app{
+  margin-right:10px;
+}
+.code2d {
+  width: 100%;
+  margin: 40px 0 0 0;
+  display: inline-block;
+  text-align: center;
+}
+.code2d .txt {
+  height: 30px;
+  line-height: 30px;
+  font-size: 1.1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #cccccc;
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
+}
+.shade:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.shade {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+.popup {
+  width: 88%;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-radius: 10px;
+  padding: 20px 10px 10px;
+  box-sizing: border-box;
+  font-size: 1.0rem;
+  text-indent: 10px;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: left;
+}
+.popup ul {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+.popup ul li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #474747;
+  border-radius: 10px;
+  -webkit-radius: 10px;
+  vertical-align: center;
+  display: inline-block;
+  margin-right: 5px;
+}
+.popup .btn {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.popup .btn span {
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  display: inline-block;
+  background-color: #d40733;
+  border-radius: 7px;
+  -webkit-radius: 7px;
+  color: #fff;
+  cursor: pointer;
+}
+.mask:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+.mask article {
+  width: 88%;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-radius: 10px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 1.0rem;
+  text-indent: 10px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.mask article header {
+  width: 100%;
+  font-size: 1.2rem;
+  height: 60px;
+  line-height: 60px;
+  background-color: #ab0f30;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #fefefe;
+  margin-bottom: 20px;
+}
+.content div {
+  font-size: 1.1rem;
+  line-height: 22px;
+}
+.content a {
+  color: #585858;
+}
+.content span {
+  display: inline-block;
+  width: 50%;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #f61041;
+  border-radius: 30px;
+  -webkit-radius: 30px;
+  margin: 10px 0;
+}
+.content img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.shar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7) url("../images/share.png") no-repeat right top;
+  background-size: 50% auto;
+}

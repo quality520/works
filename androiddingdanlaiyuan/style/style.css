@@ -1,0 +1,27 @@
+html,body,div,p,span,h3,header{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size:62.5%;
+	font-family:'Arial', 'Microsoft Yahei';
+}
+body{
+	background-color:#ececec;
+	color:#010101;
+}
+.content {
+	padding:15px;
+	text-align:center;
+}
+.content h2{
+	width:100%;
+	display:inline-block;
+	padding-bottom:5px;
+	border-bottom:1px solid #dcdcdc;
+	font-weight:700;
+}
+.content p{
+	text-align:left;
+	text-indent:30px;
+}
